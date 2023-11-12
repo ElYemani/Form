@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Projects | Send Form</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/myFramwork.css">
+</head>
+<body>
+  <div class="container">
+    <h1>send emails using <span>php</span></h1>
+    <form action="form.php" method="post">
+
+      <div class="divs fullname">
+        <div>
+          <label>full name:</label>
+        </div>
+        <div>
+          <input type="text" name="fname" id="fname" placeholder="Type your full name here">
+        </div>
+      </div>
+
+      <div class="divs email-to">
+        <div class="emailDiv">
+          <div>
+            <label>email:</label>
+          </div>
+          <div>
+            <input type="email" name="mail" id="mail" placeholder="Type your email">
+          </div>
+        </div>
+
+        <div class="toDiv">
+          <div>
+            <label>to:</label>
+          </div>
+          <div>
+            <input type="email" name="toMail" id="mail" placeholder="Type the reciver email here">
+          </div>
+        </div>
+      </div>
+
+      <div class="divs subject">
+        <div>
+          <label>subject:</label>
+        </div>
+        <div>
+          <input type="text" name="subject" id="subject" placeholder="Type your subject">
+        </div>
+      </div>
+
+      <div class="divs message">
+        <div>
+          <label>message:</label>
+        </div>
+        <div>
+          <textarea name="msg" id="msg" placeholder="Type your message here"></textarea>
+        </div>
+        <button type="submit" id="submit" name="submit">send</button>
+      </div>
+    </form>
+
+    <footer>
+      <img src="images/crdit-pic.png" alt="">
+    </footer>
+  </div>
+  <!-- JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>

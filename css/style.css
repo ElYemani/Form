@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Darumadrop+One:regular);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #BDC3D1;
+  background-image: url('../images/back-pic.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'inter';
+}
+
+.container{
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+label{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h1{
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  text-wrap: wrap;
+  width: 35%;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+span{color: #3C40C6;}
+
+input, textarea{
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+textarea{height: 150px;}
+
+.email-to{
+  display: flex;
+  width: 100%;
+}
+
+.divs{margin: 2% 0;}
+
+.emailDiv{
+  float: left;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.toDiv{
+  margin-left: 10px;
+  width: 50%;
+  float: right;
+}
+
+button{
+  border-radius: 30px;
+background: #FF4757;
+width: 265px;
+height: 50px;
+border: none;
+color: #FFF;
+text-align: center;
+margin: 10px 0;
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+footer{
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
